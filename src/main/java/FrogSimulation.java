@@ -23,7 +23,7 @@ public class FrogSimulation
 			numHops++; 
 			if (position < 0)
 				return false; 
-			else if (position >= goalDistance())
+			else if (position >= goalDistance)
 				return true; 
 			else
 				return false; 
