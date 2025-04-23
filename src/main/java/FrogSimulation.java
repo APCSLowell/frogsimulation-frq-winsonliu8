@@ -38,6 +38,7 @@ public class FrogSimulation
 		while (simNum < num){
 			if (simulate() == true)
 				sum++; 
+				simNum++; 
 		}
 		return sum / num; 
 	}
